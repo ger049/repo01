@@ -1,0 +1,23 @@
+# Terraform/OpenTofu state files (contain sensitive data)
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.*
+
+# Terraform variable files with secrets
+terraform.tfvars
+*.auto.tfvars
+
+# Terraform provider binaries and cache
+.terraform/
+.terraform.lock.hcl
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Override files (local overrides)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
